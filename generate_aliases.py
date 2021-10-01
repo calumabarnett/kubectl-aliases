@@ -56,6 +56,18 @@ def main():
         ('sec', 'secret', ['g', 'd', 'rm'], None),
         ('no', 'nodes', ['g', 'd'], ['sys']),
         ('ns', 'namespaces', ['g', 'd', 'rm'], ['sys']),
+        ('ds', 'daemonsets', ['g', 'd', 'rm'], None),
+        ('sa', 'serviceaccounts', ['g', 'd', 'rm'], None),
+        ('pdb', 'poddisruptionbudgets', ['g', 'd', 'rm'], None),
+        ('psp', 'podsecuritypolicies', ['g', 'd', 'rm'], None),
+        ('crb', 'clusterrolebindings', ['g', 'd', 'rm'], None),
+        ('rb', 'rolebindings', ['g', 'd', 'rm'], None),
+        ('r', 'roles', ['g', 'd', 'rm'], None),
+        ('cr', 'clusterroles', ['g', 'd', 'rm'], None),
+        ('sgp', 'securitygrouppolicies', ['g', 'd', 'rm'], None),
+        ('rs', 'replicasets', ['g', 'd', 'rm'], None),
+        ('sts', 'statefulsets', ['g', 'd', 'rm'], None),
+        ('hpa', 'horizontalpodautoscalers', ['g', 'd', 'rm'], None),
         ]
     res_types = [r[0] for r in res]
 
